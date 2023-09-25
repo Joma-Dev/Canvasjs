@@ -61,7 +61,7 @@ const App = () => {
 		},
 		axisX: {
 			title: 'Date',
-			valueFormatString: 'DD MMM YYYY',
+			valueFormatString: 'DD MMM, YYYY',
 			minimum: dataPoints[0]?.x,
 
 			labelFontSize: 10,
